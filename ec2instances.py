@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
 # AWS bits Copyright 2013 Ronald McCollam
-# Author: Ronald McCollam
+# Author: Ronald McCollam <ronald
 #
 # Based on example code here:
 #  http://developer.ubuntu.com/resources/technologies/application-indicators/
@@ -33,9 +33,6 @@
 # You need to set these to get this to work!
 AWS_ACCESS_KEY = "SET ME"
 AWS_SECRET_KEY = "SET ME TOO"
-
-AWS_ACCESS_KEY = "AKIAJGKYWZFPTJZBARGQ"
-AWS_SECRET_KEY = "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"
 
 from gi.repository import Gtk
 from gi.repository import AppIndicator3 as appindicator
